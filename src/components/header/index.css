@@ -1,0 +1,47 @@
+
+.nav-container{
+    width: 100%;
+    background-color: rgb(1, 1, 115);
+}
+.nav-sub-ct{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-sub-ct-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.nav-sub-ct-left h2, .nav-sub-ct-left img {
+    color: white;
+    font-size: 1rem;
+}
+
+.nav-sub-ct-left img {
+    width: 30px;
+}
+
+
+.nav-sub-ct-right img{
+    width: 30px;
+    height: 30px;
+}
+.nav-sub-ct-right{
+    position: relative;
+}
+.nav-sub-ct-right span{
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 3px;
+    right: -8px;
+    background-color: gray;
+    width: 10px;
+}
