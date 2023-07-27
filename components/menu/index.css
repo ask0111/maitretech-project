@@ -1,0 +1,15 @@
+.menu-container{
+    ma-width: 60%;
+    box-sizing: none;
+    margin: auto;
+    text-align: center;
+    
+}
+.menu-container p{
+    font-size: 320px;
+    font-size: 4rem;
+}
+.menu-container button{
+    font-weight: 700;
+    padding: 5px 12px;
+}
